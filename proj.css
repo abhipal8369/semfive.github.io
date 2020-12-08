@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+.pro{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(black,grey,lightblue);
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+}
+.nav-bar{
+	display: flex;
+	padding: 3% 4%;
+}
+.nav-logo img{
+	width:139px;
+
+}
+.work-icon{
+	margin: 220px auto;
+
+
+}
+.work-icon img{
+	width:250px;
+	margin: 0 40px;
+
+}
+
+
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display:inline-block;
+	padding:8px 12px;
+}
+.nav-links ul a{
+	color:orange;
+}
+.jeru{
+	width:60%;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	position: absolute;
+	text-align: center;
+	color: white;
+
+}  
+.menuicon{
+	width:26px;
+    display: none;
+} 
+.con{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(orange,grey,lightblue);
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+    } 
+    .cat{
+	width:60%;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	position: absolute;
+	text-align: center;
+	color: white;
+}
+@media (max-width: 700px){
+	.jeru h1{
+		font-size:26px;
+		margin-bottom: 10%;
+
+	}
+	.nav-links ul li{
+		display: block;
+
+	}
+	.nav-links ul{
+		padding: 20px 5px;
+	}
+	.nav-links{
+		margin-top: 30px;
+
+	}
+	.nav-logo{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.menuicon{
+		display: block;
+		top: 20px;
+		right:35px;
+		position: absolute;
+		cursor: pointer;
+	}
+	#mobilemenu{
+		height: 0;
+		overflow: hidden;
+		transition: 1s;
+	}
+}
